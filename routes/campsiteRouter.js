@@ -1,5 +1,4 @@
 const express = require('express');
-const { NetworkAuthenticationRequire } = require('http-errors');
 const Campsite = require('../models/campsite');
 
 const campsiteRouter = express.Router();
